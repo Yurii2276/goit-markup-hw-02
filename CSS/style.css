@@ -1,4 +1,97 @@
-body {
+:root {
+  --primary-text-color: #ffffff;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --base-text-color: #434455;
+  --primari-whitecolor: #ffffff;
+  --btn-hover-color: #404bbf;
+  --btn-secondary-color: #e7e9fc;
+}
 
-    
+body {
+  background-color: var(--primary-text-color);
+  color: var(--base-text-color);
+
+  font-family: Roboto, sans-serif;
+}
+
+/* button */
+.button {
+  color: var(--accent-color);
+  background-color: var(--btn-secondary-color);
+}
+.button.primary {
+  color: var(--primari-whitecolor);
+  background-color: var(--accent-color);
+}
+
+.button.primary :hover,
+.button.primary :focus {
+  color: var(--primari-whitecolor);
+  background-color: var(--btn-hover-color);
+}
+
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--btn-secondary-color);
+}
+
+/* delete poit in UL */
+.list {
+  list-style: none;
+}
+
+/* heder */
+
+/* Logo */
+.logo-studio {
+  color: #2e2f42;
+}
+
+/* site nav */
+.nav .link {
+  color: var(--title-text-color);
+}
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--btn-hover-color);
+}
+.nav-adress .link {
+  color: var(--title-text-color);
+}
+.nav-adress .link:hover,
+.nav-adress .link:focus {
+  color: var(--btn-hover-color);
+}
+.nav .link.current {
+  color: var(--btn-hover-color);
+}
+
+/* herro */
+.herro-title {
+  color: var(--primari-whitecolor);
+}
+.section .section-title {
+  color: var(--title-text-color);
+}
+
+/* Principles of work */
+.section .section-subtitle {
+  color: var(--title-text-color);
+}
+
+/* Our team */
+.team .team-name {
+  color: var(--title-text-color);
+}
+.team .profession {
+  color: var(--base-text-color);
+}
+
+/* footer */
+.footer .logo-studio {
+  color: #f4f4fd;
+}
+.footer .text {
+  color: #f4f4fd;
 }
