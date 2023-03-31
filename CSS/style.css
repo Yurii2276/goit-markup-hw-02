@@ -223,8 +223,11 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 .desc-sferprodact {
   color: var(--base-text-color);
+
+  text-decoration: none;
 }
