@@ -1,4 +1,5 @@
 :root {
+  
   --primary-text-color: #ffffff;
   --title-text-color: #2e2f42;
   --accent-color: #4d5ae5;
@@ -6,6 +7,7 @@
   --primari-whitecolor: #ffffff;
   --btn-hover-color: #404bbf;
   --btn-secondary-color: #e7e9fc;
+  --second-white-text: #f4f4fd;
 }
 
 body {
@@ -13,29 +15,47 @@ body {
   color: var(--base-text-color);
 
   font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*to hide service*/
+.to-hide {
+  display: none;
 }
 
 /* button */
 .button {
   color: var(--accent-color);
   background-color: var(--btn-secondary-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.4em;
 }
-.button.primary {
+/* btn in Studio */
+.button.herro {
   color: var(--primari-whitecolor);
   background-color: var(--accent-color);
 }
 
-.button.primary :hover,
-.button.primary :focus {
+.button.herro:hover,
+.button.herro:focus {
   color: var(--primari-whitecolor);
   background-color: var(--btn-hover-color);
 }
-
-.button.secondary {
+/* btn in Portfolio */
+.button.filtr {
   color: var(--accent-color);
   background-color: var(--btn-secondary-color);
 }
-
+.button.filtr:hover,
+.button.filtr:focus {
+  color: var(--primari-whitecolor);
+  background-color: var(--btn-hover-color);
+}
 /* delete poit in UL */
 .list {
   list-style: none;
@@ -44,13 +64,38 @@ body {
 /* heder */
 
 /* Logo */
+.logo {
+  color: var(--accent-color);
+}
 .logo-studio {
-  color: #2e2f42;
+  color: var(--title-text-color);
+}
+.logo,
+.logo-studio,
+.footer .logo,
+.footer .logo-studio {
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* logo for footer */
+.footer .logo-studio {
+  color: var(--second-white-text);
 }
 
 /* site nav */
 .nav .link {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-decoration: none;
 }
 .nav .link:hover,
 .nav .link:focus {
@@ -58,6 +103,8 @@ body {
 }
 .nav-adress .link {
   color: var(--title-text-color);
+
+  text-decoration: none;
 }
 .nav-adress .link:hover,
 .nav-adress .link:focus {
@@ -68,30 +115,73 @@ body {
 }
 
 /* herro */
+.herro {
+  background-color: var(--title-text-color);
+}
+
 .herro-title {
   color: var(--primari-whitecolor);
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
 }
 .section .section-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
 }
 
 /* Principles of work */
 .section .section-subtitle {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
-/* Our team */
-.team .team-name {
-  color: var(--title-text-color);
-}
-.team .profession {
+.section .desc {
   color: var(--base-text-color);
 }
 
-/* footer */
-.footer .logo-studio {
-  color: #f4f4fd;
+/* Our team */
+.team {
+  background-color: var(--second-white-text);
 }
+
+.section .name {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.section .profession {
+  color: var(--base-text-color);
+}
+/* foter */
+.footer {
+  background-color: var(--title-text-color);
+}
+
 .footer .text {
-  color: #f4f4fd;
+  color: var(--second-white-text);
+}
+
+/* portfolio  */
+.desc-product {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.desc-sferprodact {
+  color: var(--base-text-color);
 }
