@@ -35,6 +35,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
+  letter-spacing: 0.4em;
 }
 /* btn in Studio */
 .button.herro {
@@ -52,7 +53,7 @@ body {
 /* btn in Portfolio */
 .button-filtr {
   color: var(--accent-color);
-  background-color: var(--btn-secondary-color);
+  background-color: var(--second-white-text);
 
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -98,7 +99,7 @@ body {
 }
 
 /* site nav */
-.nav {
+.nav .link {
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -206,6 +207,8 @@ body {
 }
 .section .profession {
   color: var(--base-text-color);
+
+  letter-spacing: 0.02em;
 }
 /* foter */
 .footer {
@@ -217,6 +220,10 @@ body {
 }
 
 /* portfolio  */
+.link{
+  text-decoration: none
+}
+
 .desc-product {
   color: var(--title-text-color);
 
