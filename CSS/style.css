@@ -1,5 +1,4 @@
 :root {
-  
   --primary-text-color: #ffffff;
   --title-text-color: #2e2f42;
   --accent-color: #4d5ae5;
@@ -30,10 +29,13 @@ body {
 .button {
   color: var(--accent-color);
   background-color: var(--btn-secondary-color);
+  
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.4em;
+  cursor: pointer;
 }
 /* btn in Studio */
 .button.herro {
@@ -66,14 +68,7 @@ body {
 /* Logo */
 .logo {
   color: var(--accent-color);
-}
-.logo-studio {
-  color: var(--title-text-color);
-}
-.logo,
-.logo-studio,
-.footer .logo,
-.footer .logo-studio {
+  line-height: 1.17;
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   font-weight: 800;
@@ -81,6 +76,10 @@ body {
   line-height: 1.16;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.logo-studio {
+  color: var(--title-text-color);
 }
 
 /* logo for footer */
@@ -96,22 +95,40 @@ body {
   font-size: 16px;
   line-height: 1.6;
   text-decoration: none;
+  line-height: 1.5;
+  font-style: normal;
 }
 .nav .link:hover,
 .nav .link:focus {
   color: var(--btn-hover-color);
 }
-.nav-adress .link {
+.nav .link {
   color: var(--title-text-color);
 
   text-decoration: none;
 }
-.nav-adress .link:hover,
-.nav-adress .link:focus {
+.nav .link:hover,
+.nav .link:focus {
   color: var(--btn-hover-color);
 }
 .nav .link.current {
   color: var(--btn-hover-color);
+}
+
+/* adress */
+.adress .link {
+  color: var(--base-text-color);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.adress .link:hover,
+.adress .link:focus {
+color: var(--btn-hover-color); 
 }
 
 /* herro */
@@ -126,14 +143,18 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 .section .section-title {
   color: var(--title-text-color);
 
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
 /* Principles of work */
@@ -147,6 +168,10 @@ body {
 
 .section .desc {
   color: var(--base-text-color);
+}
+/* our-projects */
+.our-projects{
+  background-color: var(--primari-whitecolor);
 }
 
 /* Our team */
