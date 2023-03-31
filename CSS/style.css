@@ -29,18 +29,19 @@ body {
 .button {
   color: var(--accent-color);
   background-color: var(--btn-secondary-color);
-  
+
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.4em;
   cursor: pointer;
 }
 /* btn in Studio */
 .button.herro {
   color: var(--primari-whitecolor);
   background-color: var(--accent-color);
+
+  letter-spacing: 0.4em;
 }
 
 .button.herro:hover,
@@ -49,12 +50,20 @@ body {
   background-color: var(--btn-hover-color);
 }
 /* btn in Portfolio */
-.button.filtr {
+.button-filtr {
   color: var(--accent-color);
   background-color: var(--btn-secondary-color);
+
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.4em;
+  cursor: pointer;
 }
-.button.filtr:hover,
-.button.filtr:focus {
+
+.button-filtr:hover,
+.button-filtr:focus {
   color: var(--primari-whitecolor);
   background-color: var(--btn-hover-color);
 }
@@ -68,12 +77,13 @@ body {
 /* Logo */
 .logo {
   color: var(--accent-color);
+
   line-height: 1.17;
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -88,7 +98,7 @@ body {
 }
 
 /* site nav */
-.nav .link {
+.nav {
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -107,28 +117,26 @@ body {
 
   text-decoration: none;
 }
-.nav .link:hover,
-.nav .link:focus {
-  color: var(--btn-hover-color);
-}
+
 .nav .link.current {
   color: var(--btn-hover-color);
 }
 
 /* adress */
-.adress .link {
-  color: var(--base-text-color);
-
+.adress {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
 }
+.adress .link {
+  color: var(--base-text-color);
+}
 
 .adress .link:hover,
 .adress .link:focus {
-color: var(--btn-hover-color); 
+  color: var(--btn-hover-color);
 }
 
 /* herro */
@@ -164,19 +172,27 @@ color: var(--btn-hover-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .section .desc {
   color: var(--base-text-color);
 }
 /* our-projects */
-.our-projects{
+.our-projects {
   background-color: var(--primari-whitecolor);
 }
 
 /* Our team */
 .team {
   background-color: var(--second-white-text);
+}
+.team .section-title {
+  letter-spacing: 0.02em;
+}
+
+.style-img {
+  background-color: var(--primari-whitecolor);
 }
 
 .section .name {
