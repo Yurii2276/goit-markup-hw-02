@@ -26,27 +26,21 @@ body {
 }
 
 /* button */
-.button {
-  color: var(--accent-color);
-  background-color: var(--btn-secondary-color);
+
+.button-herro {
+  color: var(--primari-whitecolor);
+  background-color: var(--accent-color);
 
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
-  letter-spacing: 0.4em;
-}
-/* btn in Studio */
-.button.herro {
-  color: var(--primari-whitecolor);
-  background-color: var(--accent-color);
-
-  letter-spacing: 0.4em;
+  letter-spacing: 0.4em; 
 }
 
-.button.herro:hover,
-.button.herro:focus {
+.button-herro:hover,
+.button-herro:focus {
   color: var(--primari-whitecolor);
   background-color: var(--btn-hover-color);
 }
@@ -68,6 +62,7 @@ body {
   color: var(--primari-whitecolor);
   background-color: var(--btn-hover-color);
 }
+
 /* delete poit in UL */
 .list {
   list-style: none;
@@ -113,7 +108,7 @@ body {
 .nav .link:focus {
   color: var(--btn-hover-color);
 }
-.nav .link {
+.nav-l {
   color: var(--title-text-color);
 
   text-decoration: none;
@@ -190,7 +185,16 @@ body {
 .team {
   background-color: var(--second-white-text);
 }
-.team .section-title {
+.section-tm-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
   letter-spacing: 0.02em;
 }
 
