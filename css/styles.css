@@ -36,7 +36,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
-  letter-spacing: 0.4em; 
+  letter-spacing: 0.04em; 
 }
 
 .button-herro:hover,
@@ -53,7 +53,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
@@ -194,8 +194,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  letter-spacing: 0.02em;
-  letter-spacing: 0.02em;
+  
 }
 
 .style-img {
