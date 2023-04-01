@@ -114,9 +114,9 @@ body {
   text-decoration: none;
 }
 
-.nav .link.current {
-  color: var(--btn-hover-color);
-}
+/* .nav .link.current { */
+  /* color: var(--btn-hover-color); */
+/* } */
 
 /* adress */
 .adress {
