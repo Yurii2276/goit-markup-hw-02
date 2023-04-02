@@ -14,10 +14,7 @@ body {
   color: var(--base-text-color);
 
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 /*to hide service*/
@@ -74,13 +71,11 @@ body {
 .logo {
   color: var(--accent-color);
 
-  line-height: 1.17;
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -99,9 +94,9 @@ body {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
   text-decoration: none;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   font-style: normal;
 }
 .nav .link:hover,
@@ -129,7 +124,10 @@ body {
 .adress .link {
   color: var(--base-text-color);
   
+  line-height: 24px;
+  letter-spacing: 0.02em;
   text-decoration: none;
+
 }
 
 .adress .link:hover,
@@ -176,6 +174,9 @@ body {
 
 .section .desc {
   color: var(--base-text-color);
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
 }
 /* our-projects */
 .our-projects .section-title{
@@ -224,7 +225,8 @@ body {
 }
 .section .profession {
   color: var(--base-text-color);
-
+  
+  line-height: 24px;
   letter-spacing: 0.02em;
 }
 /* foter */
@@ -253,6 +255,8 @@ body {
 
 .desc-sferprodact {
   color: var(--base-text-color);
-
+  
+  line-height: 24px;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
